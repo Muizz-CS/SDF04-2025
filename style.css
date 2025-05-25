@@ -62,13 +62,19 @@ textarea{
     width: 12em;
     height: 2.5em;
     border-radius: 0.5rem;
-    font-weight: lighter;;
     text-align: left;
     padding-top:0.1rem;
     padding-bottom: 0.1rem;
     padding-left: 0.5rem;
     resize: none;
     color: #888;
+}
+
+textarea::placeholder{
+    text-align: left;
+    color: #888;
+    font-size: 0.9rem;
+    padding-top: 0.5em;
 }
 
 button{
