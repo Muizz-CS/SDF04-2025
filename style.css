@@ -95,7 +95,6 @@ button{
     justify-content: center;
     width: 100%;
     height: 100%;
-    border: 3px solid magenta;
     padding-bottom: 1rem;
 }
 
@@ -109,12 +108,13 @@ h2{
     font-size: 1rem;
     color: #333;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     font-weight: bold;
     padding-bottom: 0.5em;
     box-sizing: border-box;
     width: 100%;
+    margin: 0;
     text-align: left;
 
 }
@@ -123,9 +123,11 @@ ul{
     list-style-type: none;
     margin: 0;
     font-size: 1rem;
+    padding: 0.5rem;
     padding-left: 0;
+    gap:2rem;
+    line-height: 2rem;
 }
-    
 
 .container4{
     display: flex;
