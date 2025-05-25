@@ -64,10 +64,10 @@ textarea{
     padding-top:0.1rem;
     padding-bottom: 0.1rem;
     padding-left: 0.5rem;
-    border: 2px solid #ccc;
     resize: none;
     font-weight: lighter;;
     text-align: left;
+    color: #888;
 }
 
 button{
